@@ -219,7 +219,8 @@ hr{
         /* visibility: hidden; */
         justify-content: space-around;
         align-items: center;
-        flex: 1;
+        
+        margin-right: initial;
     }
     .profile{
         flex-flow: column-reverse;
@@ -231,11 +232,17 @@ hr{
         justify-content: center;
         align-items: center;
     }
+    .profileL{
+        padding-bottom: 40px;
+    }
     .profileL h1{
         font-size: 24px;
     }
     .profileR {
         margin-left: initial;
+    }
+    .profileR img{
+        margin-bottom: 20px;
     }
     .footer{
         padding-top: 80px;
@@ -245,5 +252,26 @@ hr{
     }
     .creating{
         padding: 8px 8px 34px 8px;
+    }
+    .maketing{
+        margin-left: initial;
+    }
+    .design ,.vibrant ,.malayam{
+        flex-flow: column;
+    }
+    .news{
+        flex-flow: column;
+        align-items: center;
+    }
+    .viewall{
+        visibility: hidden;
+    }
+    .recent{
+        justify-content: center;
+        margin-left: 248px;
+        padding-top: 8px;
+    }
+    .download{
+        padding: 10px 0px 10px 0px;
     }
 }
