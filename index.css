@@ -252,9 +252,13 @@ hr{
     }
     .creating{
         padding: 8px 8px 34px 8px;
+        width: 93%;
+        align-items: start;
     }
     .maketing{
         margin-left: initial;
+        width: 93%;
+        align-items: start;
     }
     .design ,.vibrant ,.malayam{
         flex-flow: column;
@@ -262,14 +266,21 @@ hr{
     .news{
         flex-flow: column;
         align-items: center;
+        padding-top: initial;
     }
     .viewall{
         visibility: hidden;
     }
+    .labelrecent{
+        flex-flow: column;
+        align-items: center;
+    }
     .recent{
         justify-content: center;
-        margin-left: 248px;
+        width: 100vw;
+        /* margin-left: 248px; */
         padding-top: 8px;
+        margin-left: initial;
     }
     .download{
         padding: 10px 0px 10px 0px;
